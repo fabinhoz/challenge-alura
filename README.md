@@ -103,18 +103,21 @@ Análise do faturamento segmentado por categoria para identificar os nichos mais
 
 ---
 
-### 🎨 Visualizações Criadas
+### 🎨 Gráficos Gerados
 
-Para apoiar a interpretação dos dados, foram produzidas diferentes visualizações:
+Para apoiar a interpretação dos dados, foram produzidas diferentes gráficos:
 
 📊 Gráfico de Barras — Comparação de faturamento entre as lojas
-![Gráfico - Média das avalações](assets/media_avaliacaoo.png)
+![Gráfico - Faturamento](assets/faturamento_total_por_loja.png)
 
-🥧 Gráfico de Pizza — Distribuição de vendas por categoria
+📊 Gráfico de Barras — Médias das avaliações entre as lojas
+![Gráfico - Média das avalações](assets/media_avaliacao.png)
+
+🥧 Gráfico de Pizza — Top 5 vendas por categoria (Todas as lojas)
+![Gráfico - Top 5 vendas por categoria](assets/top5_categorias_mais_vendidas_todas_lojas.png)
 
 🔵 Gráfico de Dispersão — Relação entre Preço × Avaliação
-
-📦 Boxplot de Frete (extra) — Avaliação da variação e consistência do frete
+![Gráfico - Preco_x_avaliacao](assets/faturamento x avaliacao_media.png)
 
 ---
 
