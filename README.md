@@ -3,7 +3,7 @@
 ## Desafio para Ciências de Dados - Projeto de Análise das Lojas — Alura Store
 ---
 
-### 🏪 Comparação entre 4 Lojas  
+### 🏪 Objetivo  
 Este projeto apresenta uma análise completa de desempenho das quatro lojas da Alura Store, utilizando dados fictícios de vendas (um arquivo de base de dados .CSV por loja).
 O objetivo é orientar o Sr. João na decisão estratégica sobre qual unidade deverá ser vendida para viabilizar um novo empreendimento.
 
@@ -107,17 +107,20 @@ Análise do faturamento segmentado por categoria para identificar os nichos mais
 
 Para apoiar a interpretação dos dados, foram produzidas diferentes gráficos:
 
-📊 Gráfico de Barras — Comparação de faturamento entre as lojas
+
 ![Gráfico - Faturamento](assets/faturamento_total_por_loja.png)
 
-📊 Gráfico de Barras — Médias das avaliações entre as lojas
+
 ![Gráfico - Média das avalações](assets/media_avaliacao.png)
 
-🥧 Gráfico de Pizza — Top 5 vendas por categoria (Todas as lojas)
-![Gráfico - Top 5 vendas por categoria](assets/top5_categorias_mais_vendidas_todas_lojas.png)
 
-🔵 Gráfico de Dispersão — Relação entre Preço × Avaliação
-![Gráfico - Preco_x_avaliacao](assets/faturamento x avaliacao_media.png)
+![Gráfico - Top 5 vendas por categoria mais vendidas](assets/top5_categorias_mais_vendidas_todas_lojas.png)
+
+
+![Gráfico - As 3 vendas por categoria menos vendidas](assets/top3_categorias_menos_vendidas_todas_lojas.png)
+
+
+![Gráfico - Preco_x_avaliacao](assets/faturamento_x_avaliacao_media.png)
 
 ---
 
@@ -179,7 +182,7 @@ A pequena diferença de avaliação entre Loja 1 e Loja 4 **não** é suficiente
 
 ---
 
-# 📊 Outros Insights do Projeto
+### 📊 Outros Insights do Projeto
 - A Loja 3 é a mais equilibrada  
 - A Loja 2 tem o melhor custo-benefício para o cliente  
 - A Loja 4 vende pouco, mas opera com custos menores  
@@ -187,7 +190,7 @@ A pequena diferença de avaliação entre Loja 1 e Loja 4 **não** é suficiente
 
 ---
 
-# 🛠 Tecnologias Usadas
+### 🛠 Tecnologias Usadas
 - Python 🐍  
 - Pandas  
 - Matplotlib  
@@ -196,7 +199,7 @@ A pequena diferença de avaliação entre Loja 1 e Loja 4 **não** é suficiente
 
 ---
 
-# 📘 Como Executar o Projeto
+### 📘 Como Executar o Projeto
 ```bash
 # 1. Clone o repositório
 git clone https://github.com/seuusuario/seurepo.git
@@ -209,5 +212,3 @@ pip install -r requirements.txt
 
 # 4. Execute o script principal
 python analise_lojas.py
-
-
