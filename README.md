@@ -1,6 +1,6 @@
 # Challenge 📊 
 
-## Desafio para Ciências de Dados - Projeto de Análise das Lojas — Alura Store
+## Data Science: Projeto de Análise das Lojas — Alura Store
 ---
 
 ### 🏪 Objetivo  
@@ -48,7 +48,7 @@ Este projeto também serve como prática dos principais conceitos de Ciência de
 
 Para concluir a análise, foi necessário:
 
-📥 Carregar e analisar os datasets das quatro lojas
+📥 Carregar e analisar os datasets das quatro lojas 
 
 📊 Produzir gráficos para apoiar a interpretação visual dos dados
 
@@ -61,6 +61,7 @@ Para concluir a análise, foi necessário:
 ### 📂 Estrutura da Base de Dados
 
 Cada uma das quatro lojas possui um dataset padronizado com as seguintes colunas:
+#### Lojas: [loja_1](datasets/loja_1.csv), [loja_2](datasets/loja_2.csv), [loja_3](datasets/loja_3.csv), [loja_4](datasets/loja_4.csv)
 
 * Produto
 * Categoria do Produto
@@ -124,7 +125,7 @@ Para apoiar a interpretação dos dados, foram produzidas diferentes gráficos:
 
 ---
 
-### 🧠 Como funciona o Score_ruim?
+### 🧠 O que é e como funciona o Score_ruim?
 
 O **Score_ruim** é uma métrica criada para identificar, de forma simples e objetiva, qual loja apresenta o pior desempenho relativo.
 
@@ -199,16 +200,33 @@ A pequena diferença de avaliação entre Loja 1 e Loja 4 **não** é suficiente
 
 ---
 
-### 📘 Como Executar o Projeto
+### 📂 Diretórios
 ```bash
-# 1. Clone o repositório
-git clone https://github.com/seuusuario/seurepo.git
 
-# 2. Entre na pasta
-cd seurepo
+challenge-alura/
+│
+├── assets/
+│   ├── faturamento_total_por_loja.png
+│   ├── faturamento_x_avaliacao_media.png
+│   ├── media_avaliacao.png
+│   ├── top3_categorias_menos_vendidas_todas_lojas.png
+│   └── top5_categorias_mais_vendidas_todas_lojas.png
+│
+├── datasets/
+│   ├── loja_1.csv
+│   ├── loja_2.csv
+│   ├── loja_3.csv
+│   └── loja_4.csv
+│
+├── outputs/
+│   ├── resumo_lojas.csv
+│   └── top_produtos_lojas.csv
+│
+├── Challenge_alura.ipynb
+└── README.md
+```
+---
 
-# 3. Instale as dependências
-pip install -r requirements.txt
-
-# 4. Execute o script principal
-python analise_lojas.py
+## 📖 Autor
+Fábio Zinetti
+<https://github.com/fabinhoz>
