@@ -78,6 +78,43 @@ Cada uma das quatro lojas possui um dataset padronizado com as seguintes colunas
 
 ---
 
+### 📂 Diretórios
+```bash
+
+challenge-alura/
+│
+├── assets/
+│   ├── faturamento_total_por_loja.png
+│   ├── faturamento_x_avaliacao_media.png
+│   ├── media_avaliacao.png
+│   ├── top3_categorias_menos_vendidas_todas_lojas.png
+│   └── top5_categorias_mais_vendidas_todas_lojas.png
+│
+├── datasets/
+│   ├── loja_1.csv
+│   ├── loja_2.csv
+│   ├── loja_3.csv
+│   └── loja_4.csv
+│
+├── outputs/
+│   ├── resumo_lojas.csv
+│   └── top_produtos_lojas.csv
+│
+├── Challenge_alura.ipynb
+└── README.md
+```
+
+---
+
+### 🛠 Tecnologias Usadas
+- Python 
+- Pandas  
+- Matplotlib  
+- Jupyter Notebook
+- Google Colab  
+
+---
+
 ### 📊 Análises Realizadas
 
 O projeto explora cada loja a partir de indicadores essenciais de desempenho comercial e operacional:
@@ -189,42 +226,6 @@ A pequena diferença de avaliação entre Loja 1 e Loja 4 **não** é suficiente
 - A Loja 4 vende pouco, mas opera com custos menores  
 - A Loja 1 vende muito, mas deixa clientes mais insatisfeitos
 
----
-
-### 🛠 Tecnologias Usadas
-- Python 🐍  
-- Pandas  
-- Matplotlib  
-- Jupyter Notebook
-- Google Colab  
-
----
-
-### 📂 Diretórios
-```bash
-
-challenge-alura/
-│
-├── assets/
-│   ├── faturamento_total_por_loja.png
-│   ├── faturamento_x_avaliacao_media.png
-│   ├── media_avaliacao.png
-│   ├── top3_categorias_menos_vendidas_todas_lojas.png
-│   └── top5_categorias_mais_vendidas_todas_lojas.png
-│
-├── datasets/
-│   ├── loja_1.csv
-│   ├── loja_2.csv
-│   ├── loja_3.csv
-│   └── loja_4.csv
-│
-├── outputs/
-│   ├── resumo_lojas.csv
-│   └── top_produtos_lojas.csv
-│
-├── Challenge_alura.ipynb
-└── README.md
-```
 ---
 
 ## 📖 Autor
